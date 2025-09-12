@@ -9,6 +9,14 @@
       "zipUrl": "https://example.com/modules/bindhosts/v1.8.5_185.zip",
       "changelog": "https://example.com/modules/bindhosts/v1.8.5_185.md",
       "size": 31756
+    },
+    {
+      "timestamp": 1756086143.0,
+      "version": "v2.0.7",
+      "versionCode": 207,
+      "zipUrl": "https://example.com/modules/bindhosts/v2.0.7_207.zip",
+      "changelog": "https://example.com/modules/bindhosts/v2.0.7_207.md",
+      "size": 123023
     }
   ]
 }
