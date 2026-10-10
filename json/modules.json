@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1791633588.461855
+    "timestamp": 1791652642.955111
   },
   "modules": [
     {
@@ -79,8 +79,8 @@
     {
       "id": "mmrl_wpd",
       "name": "WiFi Password Viewer for MMRL",
-      "version": "6.7.7",
-      "versionCode": 461,
+      "version": "7.0.0",
+      "versionCode": 700,
       "author": "Der_Googler, veez21 @ xda-developers",
       "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
       "added": 1445340430.7142262,
@@ -96,26 +96,23 @@
       "cover": "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/cover.webp",
       "icon": "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/icon.webp",
       "screenshots": [
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/1.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/2.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/3.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/4.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/5.webp",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/6.webp"
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/preview.webp"
       ],
       "donate": "https://github.com/sponsors/DerGoogler",
       "note": {
-        "title": "Compose Update \ud83d\ude80",
-        "message": "The WPD interface has been fully rewritten using Compose UI for a modern and seamless experience."
+        "title": "WebUI X v615 required",
+        "message": "This module requires WebUI X above v615 to properly work"
       },
-      "timestamp": 1757442541.0,
-      "size": 39773,
+      "timestamp": 1791647077.0,
+      "size": 293353,
       "permissions": [
         "magisk.permission.ACTION",
-        "mmrl.permission.DEXS"
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG"
       ],
       "features": {
-        "action": true
+        "action": true,
+        "webroot": true
       },
       "track": {
         "type": "GIT",
@@ -126,20 +123,20 @@
       },
       "versions": [
         {
-          "timestamp": 1739547916.0,
-          "version": "5.7.7",
-          "versionCode": 460,
-          "zipUrl": "https://example.com/modules/mmrl_wpd/5.7.7_460.zip",
-          "changelog": "",
-          "size": 78894
-        },
-        {
           "timestamp": 1757442541.0,
           "version": "6.7.7",
           "versionCode": 461,
           "zipUrl": "https://example.com/modules/mmrl_wpd/6.7.7_461.zip",
           "changelog": "",
           "size": 39773
+        },
+        {
+          "timestamp": 1791647077.0,
+          "version": "7.0.0",
+          "versionCode": 700,
+          "zipUrl": "https://example.com/modules/mmrl_wpd/7.0.0_700.zip",
+          "changelog": "",
+          "size": 293353
         }
       ]
     }
